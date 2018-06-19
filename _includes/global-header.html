@@ -1,0 +1,13 @@
+<!-- Global Header Start -->
+<section id="global-header" style="background-image: url({{ site.baseurl }}/img/{% if page.img %}{{ page.img }}{% else %}{{ slider-bg }}{% endif %}.jpg);background-position:{% if page.imgposition %}{{ page.imgposition }}{% else %}center{% endif %};background-position-y:{% if page.imgtop %}{{ page.imgtop }}{% else %}inherit{% endif %};">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-sm-12">
+        <div class="block">
+          <h1 style="text-transform:uppercase;"><b>{{ page.title }}</b></h1>
+          <p>{{page.subtext}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

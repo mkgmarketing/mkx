@@ -1,0 +1,17 @@
+---
+layout: page
+---
+{% include global-header.html %}
+{% for post in site.categories[page.category] %}
+<section class="post-area">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <h2><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h2>
+        <p>By {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
