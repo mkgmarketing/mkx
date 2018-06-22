@@ -189,12 +189,9 @@ header .btn {
 
 #services .row:first-child,
 #pricing .row:first-child {padding-bottom:3em;}
-#pricing {text-align: center;}
 #pricing h3 {border-bottom:1px solid #ccc;}
 #pricing ul {padding-left: 0;}
-#pricing ul:last-child {padding-top:2em;}
 #pricing ul li { list-style: none;line-height: 2em;}
-#pricing h3 {font-weight: bold;}
 #pricing .btn-call-to-action,
 #pricing .stripe-button-el {width:100%;}
 
@@ -758,41 +755,15 @@ header .btn {
 	footer Start
 --*/
 
-body footer iframe {height: 350px}
-
 footer {
   background: #F5F5F5;
   text-align: center;
+  height: 75px;
 }
 footer p {
   color: #7B7B7B;
 }
 footer a {
-  color: #ff6600;
-}
-
-footer .footer-manu {
-    border-top: 1px solid #ccc;
-    padding-bottom: 2em;}
-
-footer .footer-manu p {
-  float: left;
-  margin-bottom: 1.5em;
-}
-
-footer .footer-manu ul {
-  float: right;
-  margin-bottom: 0;
-}
-
-footer .footer-manu ul {
-}
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 1em 1.5em;
-}
-footer .footer-manu ul li a {
-  display: inline-block;
   color: #ff6600;
 }
 
@@ -945,3 +916,14 @@ input {
 .social-icons i {font-size:3em;}
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #fff;}
+
+#services .fa-calendar-times:before,
+#services .fa-dollar-sign:before,
+#services .fa-mouse-pointer:before,
+#services .fa-phone:before,
+#services .fa-chart-area:before,
+#services .fa-google:before,
+#services .fa-chart-line:before,
+#services .fa-certificate:before,
+#services .fa-users:before
+ {font-size: 5em;}
