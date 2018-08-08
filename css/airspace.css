@@ -102,7 +102,7 @@ section.difference p.subtext {text-align: center;}
 	Header Start
 --*/
 header {
-  background: #339999;
+  background: #000000;
   padding: 0;
   position: fixed;
   z-index: 100;
@@ -114,7 +114,7 @@ header .navbar {
   margin: 0;
 }
 
-header .navbar img {width: 50px;}
+header .navbar img {width: 120px;}
 
 header .navbar-brand {
     height: 30px;
